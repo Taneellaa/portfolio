@@ -1,10 +1,8 @@
-// Импортируем компонент Header
 import Header from '@/components/header';
 
 export default function Home() {
   return (
     <div className="p-8 font-[family-name:var(--font-geist-sans)]">
-      {/* Используем компонент Header и передаем пропс title */}
       <Header title="My Personal Portfolio" />
 
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
